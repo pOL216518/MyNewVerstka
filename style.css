@@ -104,7 +104,7 @@
 }
 
 .search-box{
-    background-image: url(../MySite/images/search-icon.png);
+    background-image: url(images/search-icon.png);
     background-size: 40px;
     background-position:left;
     font-size: 16px;
@@ -238,7 +238,7 @@
 }
 .popular-job-posts{
     background-color: #232443;
-    background-image: url(../MySite/images/flowers-job-posts.png);
+    background-image: url(images/flowers-job-posts.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
