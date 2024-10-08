@@ -1,0 +1,735 @@
+
+.body{
+    margin: 0;
+}
+.btn-header{
+    font-family: 'Axiforma Book';
+    font-size: 20px;
+    border-radius: 10px;
+    width: 220px;
+    height: 70px;
+    margin-top: 70px;
+    margin-right: 75px;
+    color: white;
+    background-color: #EE4F3C;
+    border: none;
+    font-family: Georgia;
+    font-weight: 600;
+    line-height: 32.62px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+
+}
+.btn-header:hover{
+    background-color: #802218;
+    transition: opacity 0.3s linear;
+}
+@font-face {
+    font-family: 'Axiforma Book';
+    src: url('Axiforma-Book.eot');
+    src: url('Axiforma-Book.eot?#iefix') format('embedded-opentype'),
+    url('Axiforma-Book.woff') format('woff'),
+    url('Axiforma-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 300px;
+    margin-top: -950px;
+}
+.header-container ul li {
+    display: inline-block;
+    list-style: none;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28.35px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 77px;
+    
+}
+.logo{
+    width: 200px;
+    top: 57px;
+    margin-left: 373px;
+    margin-top: 96px;
+    gap: 0px;
+    opacity: 0px;
+}
+.bacground-flavour{
+    width: 650px;
+    height: 971px;
+}
+.flavours-group-1{
+    margin-top: -50px;
+    display: flex;
+    z-index: 1;
+}
+.flavours-group-2{
+    display: flex;
+    z-index: 1;
+}
+.nav-link-active:hover{
+    border-bottom: 2px solid black;
+}
+.content-center{
+    font-family: Georgia;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: 0.02em;
+    color: #353540;
+    margin-top: 130px;
+    margin-left: 375px;
+}
+.content-under{
+    font-family: "Prompt", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-left: 375px;
+    color: #5D5D61;
+}
+.search-form{
+    margin-left: 375px;
+    margin-top: 606; 
+}
+
+.search-box{
+    background-image: url(../MySite/images/search-icon.png);
+    background-size: 40px;
+    background-position:left;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    font-family: "Prompt", sans-serif;
+    padding-left: 60px;
+    text-align: left 20;
+    width: 418px;
+    height: 70px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #CCCCCC;
+    
+}
+.btn-search{
+    background-color: #EE4F3C;
+    font-size: 20px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    color: white;
+    width: 181px;
+    height: 74px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0;
+}
+.btn-search:hover{
+    background-color: #802218;
+    transition: opacity 0.3s linear;
+}
+
+.search-form{
+    display: flex;
+}
+.more-images-and-woman{
+    display:flexbox;
+}
+.woman{
+    position: relative;
+    z-index: 1;
+    margin-left: 1200px;
+    margin-top: -540px;   
+}
+.circle1{
+    position: absolute;
+    z-index: 0;
+    display: flexbox;
+    margin-left: -545px;
+    margin-top: -422px;
+    
+}
+.circle2{
+    position: absolute;
+    z-index: 0;
+    display: flexbox;
+    margin-left: -685px;
+    margin-top: -540px;
+}
+.card-woman{
+    position: absolute;
+    z-index: 1;
+    margin-left: -720px;
+    margin-top: -80px;
+}
+.card-google{
+    position: absolute;
+    z-index: 1;
+    margin-left: -720px;
+    margin-top: -360px;
+}
+.card-i{
+    position: absolute;
+    z-index: 1;
+    margin-left: -585px;
+    margin-top: -566px;
+}
+.card-rainbow{
+    position: absolute;
+    z-index: 1;
+    margin-left: -105px;
+    margin-top: -480px;
+}
+.white-fon{
+    position: absolute;
+    z-index: 1;
+    margin-left: -87px;
+    margin-top: -365px;
+}
+.yellow-fon{
+    position: absolute;
+    z-index: 1;
+    margin-left: -26px;
+    margin-top: -325px;
+}
+.man{
+    position: absolute;
+    z-index: 1;
+    margin-left: -26px;
+    margin-top: -325px;
+}
+.circle{
+    position: absolute;
+    z-index: 1;
+    margin-left: 26px;
+    margin-top: -277px;
+}
+.mark{
+    position: absolute;
+    z-index: 1;
+    margin-left: 86.3px;
+    margin-top: -226px;
+}
+.adam{
+    position: absolute;
+    z-index: 1;
+    margin-left: 20px;
+    margin-top: -190px;
+}
+.manager{
+    position: absolute;
+    z-index: 1;
+    margin-left: -8px;
+    margin-top: -165px;
+}
+.paypal-card{
+    position: absolute;
+    z-index: 1;
+    margin-left: -50px;
+    margin-top: -90px;
+}
+.popular-job-posts{
+    background-color: #232443;
+    background-image: url(../MySite/images/flowers-job-posts.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin-top: 220px;
+    height: 650px;
+    width: 1949.46px;
+    left: 0;
+
+}
+.title-content-job-posts{
+    margin-top: 88px;
+    margin-left: 375px;
+    color: white;
+    font-family: Georgia;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+.posts{
+    margin-left: 375px;
+    margin-top: 100px;
+}
+.view-all{
+    font-family: "Prompt", sans-serif;
+    color: white;
+    margin-left: 876px;
+    margin-top: 300px;
+    font-weight: 600;
+}
+.view-all:hover{
+    color: #EE4F3C;
+    transition: 200ms all linear;
+}
+.fon-post{
+    color: #353540;
+    background-color: #f9f9f9;
+    z-index: 0;
+    position: absolute;
+    width: 370px;
+    height: 250px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+}
+
+.fon-post:hover{
+    background: #EE4F3C80;
+    transition: 0.6s all linear;
+    color: white;
+}
+
+.logo-slack{
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    margin-top: 20px;
+}
+.slack-content{
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    line-height: 32.62px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    position: absolute;
+    margin-left: 90px;
+}
+
+.slack-under-content{
+    font-family: Georgia;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27.27px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.slack-second-un-content{
+    font-family: "Prompt", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.2px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 30px;
+}
+.remote-btn{
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    font-family: "Prompt", sans-serif;
+    background: #5d5d6175;
+    margin-top: 100px;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.05px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border: none;
+    margin-top: 180px;
+}
+.remote-btn:hover{
+    color: white;
+    transition: 0.3s all linear;
+}
+.anywhere-btn{
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    font-family: "Prompt", sans-serif;
+    background: #5d5d6175;
+    margin-top: 100px;
+    margin-left: 5px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.05px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border: none;
+    margin-top: 180px;
+}
+.anywhere-btn:hover{
+    color: white;
+    transition: 0.3s all linear;
+}
+.cash{
+    font-family: "Prompt", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26.1px;
+    letter-spacing: 0.05em;
+    margin-left: 250px;
+    margin-top: -30px;
+}
+.people-icon{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -200px;
+}
+.google-post{
+    margin-left: 400px;
+}
+.logo-google{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -25px;
+}
+.google-content{
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    line-height: 32.62px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 35px;
+}
+.google-under-content{
+    font-family: Georgia;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27.27px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.google-second-un-content{
+    font-family: "Prompt", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.2px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 30px;
+}
+.indeed-post{
+    margin-left: 400px;
+}
+.long-container {
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    margin-top: 1020px;
+    height: auto; 
+    width: 100%; 
+    padding: 20px 0; 
+}
+
+.job-categories {
+    margin: 0 auto; 
+    width: 1170px;
+    margin-top: -250px;
+}
+
+.title-job-categ {
+    color: #353540;
+    margin-top: 0px;
+    font-family: Georgia;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54.54px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.job-cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start; 
+    flex-wrap: wrap; 
+    margin-top: 30px;
+}
+
+.job-card {
+    background-color: #fefefe;
+    width: 270px;
+    height: 270px;
+    border-radius: 20px;
+    border: 1px solid #EEEEEE;
+    position: relative; 
+    box-sizing: border-box; 
+}
+
+.circle-job {
+    margin-left: 80px;
+    margin-top: 30px;
+    position: absolute;
+    transition: opacity 0.3s linear;
+}
+
+.hover-img {
+    opacity: 0;
+}
+
+.job-card:hover .default-img {
+    opacity: 0;
+}
+
+.job-card:hover .hover-img {
+    opacity: 1;
+}
+.job-card:hover{
+    box-shadow: 0px 70px 70px 0px #EEEEEE;
+}
+
+.main-text {
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22.72px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.under-text {
+    font-family: "Prompt", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.2px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.points-long-cont{
+    position: absolute;
+    margin-left: 30px;
+}
+.create-acc-new-job{
+    margin-left: 350px;
+    margin-top:450px;
+}
+.title-new-job{
+    font-family: Georgia;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54.54px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #353540;
+}
+.under-text-new-job{
+    font-family: "Prompt", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #5D5D61;
+}
+.btn-create-acc{
+    margin-top: 30px;
+    font-family: "Prompt", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.61px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    width: 220px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: #EE4F3C;
+    color: #ffff;
+}
+.btn-create-acc:hover{
+    background-color: #802218;
+    transition: opacity 0.3s linear;
+}
+.new-job-img{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -450px;
+}
+.points-long-cont-second{
+    position: absolute;
+    margin-left: 1665px;
+    margin-top: -67px;
+}
+.post-job-ux-conteiner{
+    background-color: #FFF8F8;
+    height: auto; 
+    width: auto; 
+    margin-top: 350px;
+}
+.flowers-back-ph{
+    width: 2000px;
+    height: 750px;
+    z-index: 2;
+    position: absolute;
+}
+.job-post-photo{
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 110px;
+    z-index: 2;
+}
+.title-text-job-ux{
+    position: absolute;
+    z-index: 2;
+    margin-left: 1100px;
+    margin-top: 200px;
+    font-family: Georgia;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54.54px;
+    letter-spacing: 0.02em;
+    color: #353540;
+}
+.under-text-job-ux{
+    position: absolute;
+    z-index: 2;
+    margin-left: 1105px;
+    margin-top: 350px;
+    font-family: "Prompt", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #5D5D61;
+}
+.btn-create-post-job{
+    position: absolute;
+    z-index: 2;
+    margin-left: 1100px;
+    margin-top: 500px;
+    font-family: "Prompt", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.61px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    width: 220px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: #EE4F3C;
+    color: #ffff;
+}
+.btn-create-post-job:hover{
+    background-color: #802218;
+    transition: opacity 0.3s linear;
+}
+.feedbacks-slider {
+    display: flex;
+    flex-direction: column; /* Или row, если хотите в ряд */
+    align-items: center; /* Центрирование по горизонтали */
+    gap: 20px; /* Промежуток между блоками */
+}
+.feedbacks {
+
+    width: 100%;
+    height: auto;
+    position: relative; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 1700px; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.main-title-feedback {
+    margin-top: 1000px;
+    margin-left: 400px;
+    position: absolute;
+    z-index: 2;
+    font-family: Georgia;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54.54px;
+    letter-spacing: 0.02em;
+    color: #353540;
+}
+
+.feedbacks-info{
+    margin-left: 0; 
+    margin-top: 20px; 
+    box-shadow: 0px 50px 70px 0px #EEEEEE;
+    background-color: #f9f9f9;
+    width: 570px;
+    height: 501px;
+    opacity: 1;
+    margin: 20px auto; 
+
+}
+
+.navigation{
+    position: absolute;
+    bottom: 18px;
+    left: 50px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.bar{
+    height: 8px;
+    width: 10px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: orangered;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+}
+.bar:hover{
+    opacity: 0.8;
+    transform:scale(1.1);
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+@media (max-width:1200px){
+    .adaptive{
+        width: 1000px;
+        grid-template-columns: 1fr 280px;
+    }
+}
+@media (max-width:1000px){
+    .adaptive{
+        width: 768px;
+        grid-template-columns: 1fr 250px;
+    }
+}
+@media (max-width:768px){
+    .adaptive{
+        width: 480px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-auto-rows: 100px;
+    }
+}
+@media (max-width:480px){
+    .adaptive{
+        width: 100%;
+        
+    }
+}
